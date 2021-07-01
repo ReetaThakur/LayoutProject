@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F2F2F">
+
+
+    <TextView
+        android:id="@+id/tvAnd03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Hello AND03"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvAnd02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAnd03"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Welcome to Layouts"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/viewCircle"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/tvAnd02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/blue_circle" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:drawableEnd="@drawable/ic_name_1"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="Name:Lloyd Dcosta"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/tvage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvname"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="Age:50"
+        android:textColor="#FF0000" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="#00FF00"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnnext"
+        android:text="Next"/>
+    <View
+        android:layout_width="140dp"
+        android:layout_height="12dp"
+        android:id="@+id/viewThree"
+        android:layout_above="@+id/btnnext"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="#C4C4C4"/>
+    <View
+        android:layout_width="166dp"
+        android:layout_height="20dp"
+        android:id="@+id/viewtwo"
+        android:layout_above="@+id/viewThree"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="#C4C4C4"/>
+    <View
+        android:layout_width="183dp"
+        android:layout_height="30dp"
+        android:id="@+id/viewone"
+        android:layout_above="@+id/viewThree"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="#C4C4C4"/>
+
+</RelativeLayout>
